@@ -10,14 +10,20 @@
 			box-sizing: border-box;
 		}
 
+		header, footer, section, aside, main {
+			padding: 1em;
+		}
+
 		header, footer {
 			color: white;
 			background-color: #1976D2;
+			flex-grow: 1;
 		}
 
 		aside {
 			color: #212121;
 			background-color: #BBDEFB;
+			flex-grow: 3;
 		}
 
 		section {
@@ -28,6 +34,7 @@
 		main {
 			background-color: #2196F3;
 			color: white;
+			flex-grow: 7;
 		}
 
 		body {
@@ -45,7 +52,7 @@
 		}
 
 		div.row {
-			height: 80%;
+			flex-grow: 8;
 		}
 
 		.col {
